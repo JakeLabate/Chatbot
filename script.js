@@ -1,4 +1,4 @@
-export default class Chatbot {
+class Chatbot {
     constructor(chatbot) {
 
         // the chatbot configuration object
