@@ -722,7 +722,7 @@ class Chatbot {
             run = await fetch(`https://api.openai.com/v1/threads/${this.thread_id}/runs/${run.id}`, {
                 method: 'GET',
                 headers: {
-                'Authorization': `Bearer ${this.apiKey}`,
+                    'Authorization': `Bearer ${this.apiKey}`,
                     'OpenAI-Beta': 'assistants=v2'
                 },
             });
